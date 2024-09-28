@@ -21,11 +21,14 @@ const typeIcons = {
 
 const CatalogSliderCard = ({ product }) => {
   const { title, image, offers, rating, types, price } = product;
-  const imagePath = require(`${image}`);
+
+  console.log(process.env.PUBLIC_URL + image);
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.wrapper__top} style={{ backgroundImage: `url(${imagePath})` }}>
+      <div
+        className={styles.wrapper__top}
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL + image})` }}>
         <div className={styles.offers}>
           {offers.map((offer, index) => (
             <div key={index} className={styles.offers__item}>

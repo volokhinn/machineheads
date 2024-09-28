@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "205/55R16 PIRELLI CINTURATO P7 91V",
-        "image": "./assets/img/wheel1.png",
+        "image": "/img/wheel1.png",
         "offers": [
           "star",
           "safe",
@@ -28,7 +28,7 @@
       {
         "id": 2,
         "title": "205/55R16 PIRELLI CINTURATO P7 91V",
-        "image": "./assets/img/wheel1.png",
+        "image": "/img/wheel2.png",
         "offers": [
           "star",
           "safe"
@@ -49,7 +49,7 @@
       {
         "id": 3,
         "title": "205/55R16 PIRELLI CINTURATO P7 91V",
-        "image": "./assets/img/wheel1.png",
+        "image": "/img/wheel1.png",
         "offers": [
           "star",
           "safe",
@@ -71,7 +71,7 @@
       {
         "id": 4,
         "title": "205/55R16 PIRELLI CINTURATO P7 91V",
-        "image": "./assets/img/wheel2.png",
+        "image": "/img/wheel2.png",
         "offers": [
           "gift",
           "good"
