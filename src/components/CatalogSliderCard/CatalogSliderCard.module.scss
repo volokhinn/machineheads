@@ -14,10 +14,14 @@
     }
 
     &__bottom {
+        min-height: 400px;
         background-color: $gray;
         border-radius: 6px;
 
         padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
 
