@@ -1,0 +1,121 @@
+@import '../../variables.scss';
+
+.wrapper {
+    width: 100%;
+    background-color: #fff;
+
+    &__top {
+        height: 270px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        position: relative;
+    }
+
+    &__bottom {
+        background-color: $gray;
+        border-radius: 6px;
+
+        padding: 20px;
+    }
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        user-select: none;
+
+        width: 35px;
+        height: 35px;
+        
+        background-color: $gray;
+        border-radius: 100%;
+    }
+}
+
+.title {
+        font-size: 18px;
+}
+
+.rating {
+    margin: 12px 0;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+.price {
+    margin-top: 25px;
+
+    &__old {
+        color: #888888;
+        font-size: 20px;
+        text-decoration: line-through;
+    }
+
+    &__new {
+        color: $black;
+        font-size: 26px;
+    }
+}
+
+.buttons {
+    &__row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 12px;
+    }
+}
+
+.button {
+    background-color: transparent;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+
+    &_accent {
+        background-color: $accent;
+    }
+
+    &_heart {
+        margin-left: 10px;
+        padding: 0;
+        width: fit-content;
+    }
+
+    &_stroke {
+        border: 1px solid #888888;
+        color: $black;
+    }
+}
