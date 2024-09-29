@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './CatalogSliderCard.module.scss';
 
 import Rating from '../../UI/Rating/Rating';
@@ -23,7 +23,17 @@ const typeIcons = {
 const CatalogSliderCard = ({ product }) => {
   const { title, image, offers, rating, types, price } = product;
 
-  console.log(process.env.PUBLIC_URL + image);
+  // Состояние для ширины экрана
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  // Обновляем ширину экрана при изменении размера окна
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div className={styles.wrapper}>
@@ -60,7 +70,7 @@ const CatalogSliderCard = ({ product }) => {
           </div>
           <div className={styles.buttons}>
             <div className={styles.buttons__row}>
-              <NumberInput />
+              {windowWidth >= 1024 && <NumberInput />}
               <a href="/" className={`${styles.button} ${styles.button_accent}`}>
                 В корзину
               </a>

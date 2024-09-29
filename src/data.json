@@ -2,7 +2,7 @@
     "wheels": [
       {
         "id": 1,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel1.png",
         "offers": [
           "star",
@@ -27,7 +27,7 @@
       },
       {
         "id": 2,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
           "star",
@@ -39,7 +39,7 @@
         },
         "types": [
           "winter",
-          "studded"
+          "mud"
         ],
         "price": {
           "oldPrice": "6750",
@@ -48,11 +48,10 @@
       },
       {
         "id": 3,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel1.png",
         "offers": [
           "star",
-          "safe",
           "good"
         ],
         "rating": {
@@ -60,7 +59,7 @@
           "reviewsCount": 5
         },
         "types": [
-          "winter",
+          "studded",
           "mud"
         ],
         "price": {
@@ -70,9 +69,10 @@
       },
       {
         "id": 4,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
+          "discount",
           "gift",
           "good"
         ],
@@ -81,8 +81,7 @@
           "reviewsCount": 5
         },
         "types": [
-          "studded",
-          "mud"
+          "winter"
         ],
         "price": {
           "oldPrice": "6750",
@@ -91,7 +90,7 @@
       },
       {
         "id": 5,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
           "gift",
@@ -102,8 +101,7 @@
           "reviewsCount": 5
         },
         "types": [
-          "studded",
-          "mud"
+          "winter"
         ],
         "price": {
           "oldPrice": "6750",
@@ -112,9 +110,10 @@
       },
       {
         "id": 6,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
+          "discount",
           "gift",
           "good"
         ],
@@ -123,8 +122,8 @@
           "reviewsCount": 5
         },
         "types": [
-          "studded",
-          "mud"
+          "mud",
+          "winter"
         ],
         "price": {
           "oldPrice": "6750",
@@ -133,9 +132,10 @@
       },
       {
         "id": 7,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
+          "discount",
           "gift",
           "good"
         ],
@@ -144,8 +144,7 @@
           "reviewsCount": 5
         },
         "types": [
-          "studded",
-          "mud"
+          "studded"
         ],
         "price": {
           "oldPrice": "6750",
@@ -154,7 +153,7 @@
       },
       {
         "id": 8,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
           "gift",
@@ -165,7 +164,6 @@
           "reviewsCount": 5
         },
         "types": [
-          "studded",
           "mud"
         ],
         "price": {
@@ -175,7 +173,7 @@
       },
       {
         "id": 9,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
           "gift",
@@ -196,7 +194,7 @@
       },
       {
         "id": 10,
-        "title": "205/55R16 PIRELLI CINTURATO P7 91V",
+        "title": "205/55R16 PIRELLI CINTURATO P7 91VPIRELLI CINTURATO P7 91V",
         "image": "/img/wheel2.png",
         "offers": [
           "gift",

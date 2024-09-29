@@ -18,8 +18,6 @@ const CatalogSlider = ({ data }) => {
         <Swiper
           ref={swiperRef}
           spaceBetween={10}
-          slidesPerView={5}
-          autoHeight
           navigation={{
             nextEl: `.${styles.slider__buttons_next}`,
             prevEl: `.${styles.slider__buttons_prev}`,
@@ -31,12 +29,10 @@ const CatalogSlider = ({ data }) => {
             },
             480: {
               slidesPerView: 2.1,
+              spaceBetween: 10,
             },
             768: {
-              slidesPerView: 3.2,
-            },
-            1024: {
-              slidesPerView: 3.2,
+              slidesPerView: 3.15,
             },
             1280: {
               slidesPerView: 4.1,
