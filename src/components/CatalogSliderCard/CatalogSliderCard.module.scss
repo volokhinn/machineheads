@@ -108,17 +108,39 @@
 
     &_accent {
         background-color: $accent;
+        transition: $transition;
+
+        &:hover {
+            background-color: $accentHover;
+        }
     }
 
     &_heart {
         margin-left: 10px;
         padding: 0;
         width: fit-content;
+
+        &:hover .button_heartPath {
+            fill: $accent; /* Заливка при наведении */
+            stroke: $accent;
+        }
+    }
+
+    &_heartPath {
+        transition: fill 0.3s ease, stroke 0.3s ease;
+        fill: rgba(0,0,0,0);
+        stroke: #3a3a3a;
     }
 
     &_stroke {
         border: 1px solid #888888;
         color: $black;
+        transition: $transition;
+
+        &:hover {
+            background-color: $black;
+            color: #fff;
+        }
     }
 }
 
