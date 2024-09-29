@@ -1,0 +1,52 @@
+@import '../../variables.scss';
+
+.wrapper {
+    &__slider {
+        width: calc(100vw - (100vw - 1440px) / 2);
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+
+.slider {
+    &__buttons {
+        display: flex;
+        gap: 20px;
+
+        &_prev, &_next {
+            width: 45px;
+            height: 45px;
+            background-color: $gray;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        &_next {
+            & img {
+                transform: rotate(180deg);
+            }
+        }
+
+        &_accent {
+            background-color: $accent;
+            color: #fff;
+            border: none;
+            padding: 12px 73px;
+            border-radius: 10px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    
+}
